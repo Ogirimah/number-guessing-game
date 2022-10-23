@@ -34,12 +34,16 @@ do {
     if (decision == "Y") {
         continue
     }
-    else if (decision =="N") {
-        continueGame = false
-    }
     else {
-        decision = prompt("Wrong input, Please type 'Y' fo yes and 'N' for no")
+        continueGame = false;
     }
+    // else if (decision =="N") {
+    //     continueGame = false
+    // }
+    // else {
+    //     decision = prompt("Wrong input, Please type 'Y' fo yes and 'N' for no")
+    // }
+
     // On failure print out total score
     // ask if interested in continuing game 
     // if affirmative, continue 
