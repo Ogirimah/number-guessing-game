@@ -23,7 +23,7 @@ do {
         }
         else {
             alert(newUser.name + ": Wrong number guesssed. You guessed " + userNumber + " instead of " + generatedNumber + "\n" +
-            "Your total score is" + newUser.score);
+            "Your total score is " + newUser.score);
             newUser.score = 0;
             break;
         }
